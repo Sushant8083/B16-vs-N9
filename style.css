@@ -1,0 +1,245 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%
+}
+
+#headmain{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#mam{
+    position: relative;
+    height: 10%;
+    top: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 75px;
+}
+
+#mam1{
+    display: flex;
+    align-items: center;
+    font-family: Americana bt;
+    color: rgb(68, 66, 66);
+    align-items: flex-end;
+}
+#mam1 h2{
+    color: red;
+}
+#mam1 h4{
+    margin-left: 10px;
+}
+#mam2{
+    display: flex;
+    font-family: Americana bt;
+    color: rgb(68, 66, 66);
+    align-items: flex-end;
+}
+#mam2 h2{
+    color: red;
+}
+#mam2 h4{
+    margin-left: 10px;
+}
+#mam3{
+    display: flex;
+    font-family: Americana bt;
+    color: rgb(68, 66, 66);
+    align-items: flex-end;
+}
+#mam3 h2{
+    color: red;
+}
+#mam3 h4{
+    margin-left: 10px;
+}
+#mam4{
+    display: flex;
+    align-items: flex-end;
+    font-family: Americana bt;
+    color: rgb(68, 66, 66);
+}
+#mam4 h2{
+    color: red;
+}
+#mam4 h4{
+    margin-left: 10px;
+}
+
+#main{
+    top: -10%;
+    left: 1%;
+    height: 90%;
+    width: 98%;
+    background-color:#f8eddd;
+    overflow: hidden;
+    position: relative;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#nav i{
+    margin-left: 45px;
+    font-size: 30px;
+}
+
+#rav{
+    margin-right: 30px;
+}
+
+#rav i{
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+#box{
+    z-index: 12;
+    position: relative;
+    left: 55%;
+    top: -2%;
+    height: 85%;
+    width: 35%;
+    background-color: transparent;
+}
+
+#semicir1{
+    margin-left: 60px;
+    margin-top: 10px;
+    height: 120px;
+    width: 240px;
+    border-radius: 120px 120px 0px 0px;
+    background: linear-gradient(to bottom,#e6d6c4,#dbccb1,#f0dfc3,#e7ded0 ,#e4ddce);
+    transform: rotate(-30deg);
+}
+
+#semicir2{
+    height: 120px;
+    width: 240px;
+    margin-top: 20px;
+    margin-left: 110px;
+    border-radius: 0px 0px 120px 120px;
+    background: linear-gradient(to bottom,#e6d6c4,#dbccb1,#f0dfc3,#e7ded0 ,#e4ddce);
+    transform: rotate(-30deg);
+    border-top:20px solid #dbccb1 ;
+}
+
+#box #flower{
+    position: absolute;
+    top: -25%;
+    left: 20%;
+    height: 120%;
+}
+#box #bird{
+    position: absolute;
+    left: -10%;
+    height: 40%;
+}
+#box #bird2{
+    position: absolute;
+    top: 35%;
+    left: 100%;
+    height: 30%;
+}
+#box #beer{
+    z-index: 12;
+    position: absolute;
+    top: 7%;
+    left: 25%;
+    height: 100%;
+}
+
+#box hr{
+    margin-top: 10px;
+    transform: rotate(-30deg);
+    margin-left: 10px;
+    border-bottom:none ;
+    width: 110%;
+    border-top: 2px solid rgb(139, 130, 130);
+}
+#main #house{
+    position: absolute;
+    left: 83%;
+    top: 74%;
+    height: 28%;
+}
+
+#main #tree{
+    position: absolute;
+    top: 62%;
+    height: 38%;
+}
+
+#main #farm{
+    position: absolute;
+    top: 66%;
+    left: 14%;
+    height: 50%;
+}
+
+#main #bottel{
+    position: absolute;
+    top: 78%;
+    left: 42%;
+    height: 22%;
+}
+#head{
+    position: absolute;
+    top: 15%;
+    left: 6%;    
+}
+
+#head h5{
+    color: rgb(230, 208, 88);
+    font-family: gilroy;
+}
+#head h5 span{
+    margin-left: 12px;
+}
+
+#head h1{
+    margin-top: 8px;
+    font-family: Americana bt;
+    font-size: 45px;
+    font-weight: 500;
+    color: rgb(39, 38, 38);
+    line-height: 45px;
+}
+
+#head #head1{
+    margin-top: 20px;
+    font-family: audrey;
+    color: grey;
+}
+
+#box2{
+    position: relative;
+    left: 50%;
+    margin-top: 40px;
+    font-family: gilroy;
+    color: rgb(77, 77, 77);
+}
+
+#box2 hr{
+    margin-bottom: 5px;
+    width: 50%;
+    border-bottom: none;
+}
+#box2 h6{
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
